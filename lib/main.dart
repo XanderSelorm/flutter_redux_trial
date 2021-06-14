@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_redux_trial/Redux/State/app_state.dart';
 import 'package:redux/redux.dart';
-import 'Redux/Features/Todo/Reducers/todo_reducer.dart';
+import 'Redux/Reducers/todo_reducer.dart';
 import 'Views/main_page.dart';
 
 void main() {

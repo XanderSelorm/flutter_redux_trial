@@ -1,8 +1,9 @@
+import 'package:flutter_redux_trial/Redux/State/app_state.dart';
+
 import '../../../../Models/todo_item.dart';
 import '../Actions/add_todo_action.dart';
 import '../Actions/remove_todo_action.dart';
 import '../Actions/remove_todos_action.dart';
-import '../../../State/app_state.dart';
 
 List<TodoItem> todoReducer(List<TodoItem> state, action) {
   if (action is AddTodoAction) {

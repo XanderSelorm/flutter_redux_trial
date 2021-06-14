@@ -1,7 +1,7 @@
 import 'package:flutter_redux_trial/Models/todo_item.dart';
-import 'package:flutter_redux_trial/Redux/Features/Todo/Actions/add_todo_action.dart';
-import 'package:flutter_redux_trial/Redux/Features/Todo/Actions/remove_todo_action.dart';
-import 'package:flutter_redux_trial/Redux/Features/Todo/Actions/remove_todos_action.dart';
+import 'package:flutter_redux_trial/Redux/Actions/add_todo_action.dart';
+import 'package:flutter_redux_trial/Redux/Actions/remove_todo_action.dart';
+import 'package:flutter_redux_trial/Redux/Actions/remove_todos_action.dart';
 import 'package:flutter_redux_trial/Redux/State/app_state.dart';
 import 'package:redux/redux.dart';
 
